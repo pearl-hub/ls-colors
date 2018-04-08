@@ -8,6 +8,3 @@ ls -l
 
 ls -l $HOME
 
-pearl update test
-
-pearl remove test
