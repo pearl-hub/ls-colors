@@ -7,6 +7,6 @@ then
     alias ls="osx_attempt_command ls --color=auto"
 fi
 
-eval $(osx_attempt_command dircolors -b $PEARL_PKGDIR/module/LS_COLORS)
+eval $(osx_attempt_command dircolors -b $PEARL_PKGVARDIR/ls-colors/LS_COLORS)
 
 # vim: ft=sh
